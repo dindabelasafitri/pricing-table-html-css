@@ -1,0 +1,62 @@
+.background-hitam {
+    width: 950px;
+    border: none;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0F172A; /* biru tua kehitaman */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.kotak-1, .kotak-2, .kotak-3 {
+    width: 270px;
+    height: 320px;
+    background-color: #1E293B; /* abu kebiruan gelap */
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+}
+.kotak-1:hover, .kotak-2:hover, .kotak-3:hover {
+    transform: translateY(-5px);
+}
+
+.warna-1, .warna-2, .warna-3 {
+    height: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.kotak-starter {
+    background-color: #3B82F6; /* biru terang */
+    border-radius: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.kotak-pro {
+    background-color: #8B5CF6; /* ungu elegan */
+    border-radius: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.kotak-premium {
+    background-color: #F59E0B; /* emas/kuning premium */
+    border-radius: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.garis-1, .garis-2, .garis-3 {
+    border: 1px solid rgba(255,255,255,0.3);
+    margin: 10px;
+}
+
+.teks-1, #teks-2, #teks-3 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #E2E8F0; /* abu muda */
+}
